@@ -15,7 +15,6 @@ import modelo.Asignatura;
 import modelo.Docente;
 import modelo.Usuario;
 import persistencia.ArchivoAsignaturas;
-import persistencia.ArchivoAsignaturasObjeto;
 import persistencia.ArchivoDocAsignaturas;
 import persistencia.ArchivoUsuarios;
 
