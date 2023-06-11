@@ -185,7 +185,6 @@ public class InformeCalificaciones extends javax.swing.JFrame {
             modelo.addColumn("Calificacion");
             modelo.addColumn("Retroalimentacion");   
             for (Calificacion c : e.getCalificaciones()) {
-                JOptionPane.showMessageDialog(null, c.getNota());
                 Object[] fila = new Object[]{
                     c.getActividad(),
                     c.getAsignatura(),
